@@ -14,8 +14,8 @@ function App() {
   return (
     <div>
       <HomePage>
-      <Route exact path='/' component={HomePage} />
-      <Route exact path='/hats' component={HatsPage} />
+        <Route exact path='/' component={HomePage} />
+        <Route exact path='/hats' component={HatsPage} />
       </HomePage>
     </div>
   );
